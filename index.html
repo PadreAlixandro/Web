@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обобщенные числа Фибоначчи</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="calcButton">Рассчитать число Фибоначчи</button>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2>Введите параметры</h2>
+            <input type="text" id="f0" placeholder="F0 (первое число)">
+            <input type="text" id="f1" placeholder="F1 (второе число)">
+            <input type="text" id="n" placeholder="n (порядковый номер)">
+            <button id="submit">Посчитать</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <div id="notification" class="notification"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
